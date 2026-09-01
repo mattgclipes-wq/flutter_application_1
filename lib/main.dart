@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 class TelaInicial extends StatelessWidget {
   const TelaInicial({super.key});
 
- @override
+@override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
@@ -29,6 +29,6 @@ class TelaInicial extends StatelessWidget {
             );
           },
           child: const Text('Go to Tela Inicial'),
-        ), 
-    );
+        ),
+    ),
   }}
